@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# React Developer Portfolio template
+#### Live Demo https://react-portfolio-v1.netlify.app/
+#### Figma Design https://www.figma.com/community/file/1116246660507537002
+### Preview ( Dark Mode )
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="/preview.gif" alt="preview" width="600px" />
 
-## Available Scripts
+## Follow Below instructions to add your deatils in the portfolio.
 
-In the project directory, you can run:
+### Change and customize every section according to your need, All you need to do is edit `/src/Details.js`
 
-### `npm start`
+#### Open `/src/Details.js` & modify it as per your need.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```javascript
+/ Enter your Personal Details here
+export const personalDetails = {
+  name: "Pavan MG",
+  tagline: "I build things for web",
+  img: profile,
+  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+  when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+};
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+// Enter your Social Media URLs here
+export const socialMediaUrl = {
+  linkdein: "https://www.linkedin.com/",
+  github: "https://www.github.com/",
+  twitter: "https://twitter.com/",
+  instagram: "https://www.instagram.com/",
+};
 
-### `npm test`
+// Enter your Work Experience here
+export const workDetails = [
+  {
+    Position: "Frontend Web Developer",
+    Company: `Company Name here`,
+    Location: "Bengaluru",
+    Type: "Full Time",
+    Duration: "Sep 2021 - Dec 2021",
+  }
+];
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+// Enter your Education Details here
+export const eduDetails = { ... };
 
-### `npm run build`
+// Tech Stack and Tools
+export const techStackDetails = { ... };
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+// Enter your Project Details here
+export const projectDetails = [ ... ];
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+// Enter your Contact Details here
+export const contactDetails = { ... };
+```
