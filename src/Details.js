@@ -5,6 +5,7 @@ import logo from "./assets/logo.png";
 // Profile Image
 import profile from "./assets/profile.png";
 // Tech stack images
+import python from "./assets/techstack/python.png";
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
 import sass from "./assets/techstack/sass.png";
@@ -37,7 +38,7 @@ export const logos = {
 export const personalDetails = {
   named: "Mohammad",
   nameb: "Fattachul 'Alim",
-  tagline: "Junior Frontend Dev",
+  tagline: "DS AI Enthusiast",
   img: profile,
   about: `Hello my name is Mofttach, Or Mohammad Fattachul 'Alim 
    tasydn
@@ -74,23 +75,24 @@ export const workDetails = [
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Free Code Camp, SoloLearn, Mimo, YouTube, Google",
-    Location: "Online",
+    Position: "S1 Informatics",
+    Company: "Universitas Nahdlatul Ulama Yogyakarta",
+    Location: "Offline",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Duration: "Sep 2023 - Present",
   },
   {
     Position: "Vocational High School",
     Company: `SMK Walisongo 2 Gempol`,
     Location: "Gempol - Pasuruan",
     Type: "Full Time",
-    Duration: "Jul 2020 - Present",
+    Duration: "Jul 2020 - Mei 2023",
   },
 ];
 
 // Tech Stack and Tools
 export const techStackDetails = {
+  python: python,
   html: html,
   css: css,
   js: js,
@@ -121,5 +123,5 @@ export const projectDetails = [
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "contact.mofttach@gmail.com",
+  email: "mofttach@gmail.com",
 };

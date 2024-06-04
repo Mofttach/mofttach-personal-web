@@ -16,11 +16,11 @@ function About() {
         
         <span className="text-gradient font-medium"> MOHAMMAD FATTACHUL 'ALIM</span> Commonly called or perhaps known on social media as
         <span className="text-gradient font-medium"> Mofttach</span>
-          . I am currently studying Class XII majoring in Computer and Network Engineering at Vocational High School   Walisongo 2 Gempol
+          . I am currently Informatics student at Universitas Nahdlatul Ulama Yogyakarta
         </p>
         <p className="text-content pt-3 lg:max-w-3xl">
-        I live in Sidoarjo Regency, East Java Province. Im still Learning and concentrate on web programming especially on the 
-        <span className="text-gradient font-medium"> Frontend Development.</span>
+        In high school, I studied various fields in Vocational High School with a major in Computer and Network Engineering, including Web Development, Networking, Cyber Security, and IoT. However, upon entering university, I became particularly interested in 
+        <span className="text-gradient font-medium"> AI and Machine Learning.</span>
         </p>
         <p className="text-content pt-3 pb-8 lg:max-w-3xl">
 I'm always excited and happy to connect with someone. What's more, we can learn together, so if you want to connect with me, I'm very open. You can visit my social media or you can email me.

@@ -109,7 +109,7 @@ function Home() {
         </h2>
         <a 
         ref={h15}
-        href="./src/assets/mofttach.pdf" download="" class="mt-5 mx-auto btn bg-gradient text-dark-heading text-xl inline-block rounded-2xl px-4 py-2 min-w-fit font-bold">Download CV</a>
+        href="https://www.linkedin.com/in/mofttach/" class="mt-5 mx-auto btn bg-gradient text-dark-heading text-xl inline-block rounded-2xl px-4 py-2 min-w-fit font-bold"> LinkedIn </a>
       </div>
       <div className="mt-5 md:mt-0">
         <img ref={myimageref} className="w-1/2  mx-auto mt-10" src={img} alt="Mofttach" />
